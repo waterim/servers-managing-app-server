@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 4454;
+const PORT = process.env.PORT || 4454;
 const servers = require('./servers.json');
 const ONLINE = 'ONLINE';
 const OFFLINE = 'OFFLINE';
