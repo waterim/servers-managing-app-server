@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node src/index.js"
   },
-  "author": "Maciej Sawicki <maciej.sawicki@acaisoft.com> (https://acaisoft.com)",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
